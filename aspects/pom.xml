@@ -26,18 +26,6 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>com.google.cloud.tools</groupId>
-                <artifactId>appengine-maven-plugin</artifactId>
-                <version>${appengine-maven-plugin.version}</version>
-                <configuration>
-                    <project>${appengine.app.id}</project>
-                    <version>${appengine.app.version}</version>
-
-                    <port>${web.port}</port>
-                </configuration>
-            </plugin>
-
-            <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>aspectj-maven-plugin</artifactId>
             </plugin>
